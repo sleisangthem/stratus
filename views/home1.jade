@@ -1,0 +1,13 @@
+extends layout  
+
+block content
+    script.
+    .row(ng-app='stratusHome' ng-controller='homeCtrl')
+        div()
+            .container-fluid
+                .row
+                    .col-sm-3
+                        h2
+                         a(href='#gendataHistory') test
+                    .col-sm-9
+                        ng-view

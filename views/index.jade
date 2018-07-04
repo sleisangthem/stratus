@@ -1,0 +1,43 @@
+// Copyright  (c) 2016-2017, Hortonworks Inc.  All rights reserved.Except as expressly permitted in a written agreement between your company and Hortonworks, Inc, any use, reproduction, modification, redistribution, sharing, lending or other exploitation of all or any part of the contents of this file is strictly prohibited.
+
+extends layout
+
+block content
+  script.
+  .row(ng-app='stratusHome' ng-controller='indexCtrl')
+    form.col.s6.offset-s3(role='form')
+      .card
+        .card-content
+
+        .row
+          .col.s12.offset-s3
+            .row(ng-if='status==403')
+              font(color='red')
+            .row(ng-if='status==404')
+              font(color='red')
+            //.row(ng-if='error!=null')
+               font(color='red') {{error}}
+            .row
+              .input-field.col.s5
+                input#hostname.validate(type='text' ,ng-model='hostname', name='hostname', required='' )
+                label(for='hostname') Ambari Host IP
+            //.row
+              .input-field.col.s5
+                input#clustername.validate(type='text' , name='clustername', required='' )
+                label(for='clustername') Cluster Name
+            .row
+              .input-field.col.s5
+                input#username.validate(type='text', name='username', ng-model='username',required='')
+                label(for='username') Username
+            .row
+              .input-field.col.s5
+                input#password.validate(type='password', name='password', ng-model='password',required='')
+                label(for='password') Password
+
+        .card-action
+           .row
+            button.btn.green.waves-effect.waves-light.right(ng-click='onLogin(hostname,username,password)',type='submit', name='action')
+              | Submit
+
+
+

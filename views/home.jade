@@ -1,0 +1,34 @@
+extends layout  
+
+block content
+
+        div(ng-app='stratusHome' ng-controller='homeCtrl')
+            .container-fluid
+                .row
+                    .col-sm-3
+                        h2
+                        p
+                            ul#sidebar-nav.list-group.sidebar-nav-v1.fa-fixeddiv
+                                li.list-group-item.list-toggle
+                                    a(data-toggle='collapse', data-parent='#sidebar-nav', data-target='#collapse-datagen', href='') Datagen
+                                    ul#collapse-datagen.collapse
+                                        li
+                                            a(ng-href='#gendataHistory')
+                                                i.fa.fa-fw.fa-stethoscope
+                                                |  History
+                                        li
+                                            a(ng-href='#gendataExecute')
+                                                i.fa.fa-fw.fa-stethoscope
+                                                |  Execute
+                                li.list-group-item.list-toggle
+                                    a(data-toggle='collapse', data-parent='#sidebar-nav', data-target='#collapse-reports', href='') Reports
+                                    ul#collapse-reports.collapse
+                                        li
+                                            a(ng-click='queryUser',href='#/search')
+                                                i.fa.fa-fw.fa-search
+                                                | view
+
+
+                    .col-sm-9
+                        .col-md-12
+                          ng-view

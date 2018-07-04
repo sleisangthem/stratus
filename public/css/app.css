@@ -1,0 +1,139 @@
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.brand-logo {
+  margin-left: 1em;
+}
+
+.brand-logo em {
+  font-size: .6em;
+}
+
+.menu-right {
+  margin-right: 1em;
+}
+
+.header-text {
+  -webkit-animation-delay: 0ms;
+  -moz-animation-delay: 0ms;
+  animation-delay: 0ms;
+}
+
+.header-sub-text .text-get {
+  -webkit-animation-delay: 2000ms;
+  -moz-animation-delay: 2000ms;
+  animation-delay: 2000ms;
+}
+
+.header-sub-text .text-well {
+  -webkit-animation-delay: 2500ms;
+  -moz-animation-delay: 2500ms;
+  animation-delay: 2500ms;
+}
+
+.header-sub-text .text-sooner {
+  -webkit-animation-delay: 3000ms;
+  -moz-animation-delay: 3000ms;
+  animation-delay: 3000ms;
+}
+
+.icon-block-left {
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.icon-block-middle {
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.icon-block-right {
+  -webkit-animation-delay: 1500ms;
+  -moz-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+
+.btn-sign-up {
+  -webkit-animation-delay: 2500ms;
+  -moz-animation-delay: 2500ms;
+  animation-delay: 2500ms;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.card-title i {
+  font-size: 3em;
+}
+
+.section-header {
+  margin-top: 1em;
+}
+
+.section-cards {
+  margin-top: 4em;
+}
+
+.form-reg {
+  margin-top: 2em;
+}
+
+.form-reg-1 {
+    margin-top: 1em;
+}
+
+.icon-doctor {
+  width: 10%;
+}
+
+.menu-side-nav {
+  margin-left: 1em;
+}
+
+.icon-side-nav {
+  margin-right: 2em;
+}
+
+ul.side-nav li a {
+  font-size: 13px;
+  line-height: 44px;
+  height: 44px;
+}
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+/*header, main, footer {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}*/
+
+

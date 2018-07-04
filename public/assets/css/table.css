@@ -1,0 +1,8 @@
+.contDiv {width:750px; padding: auto; margin: auto;}
+.heaaderDiv {width:750px; overflow: hidden;}
+.bottomDiv {width:750px; height: 200px; overflow: scroll; }
+.bottomDiv tbody:nth-child(odd) {background: #aaaaaa}
+
+
+.tdFixed {border: 1px solid #003300; padding: 2px; background: #003366; color: #ffffff; font-size: 15px;}
+td {border: 1px solid #003300; padding: 2px; min-width:80px; width: 80px; font-size: 13px;}

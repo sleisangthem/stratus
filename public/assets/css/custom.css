@@ -1,0 +1,41 @@
+.reg-page {
+    margin-top: 5%;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.info-text-home {
+    color: white;
+    background-color: rgba(150, 150, 150, 0.5);
+    font-weight: normal;
+    padding: 0.2em;
+}
+
+.item-info-text-home {
+    color: white;
+    background-color: rgba(150, 150, 150, 0.5);
+    font-weight: normal;
+    padding: 0.2em;
+}
+
+.diary {
+    font-style: italic;
+    margin-left: -5px;
+    font-size: 0.5em;
+    color: green;
+}
+
+.breadcrumbs-v3 {
+    background-color: #585f69;
+}
